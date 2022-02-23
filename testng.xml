@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testingbaba">
+  <test name="Login" enabled="false">
+    <classes>
+      
+      <class name="testingbaba_test.Login_test"/>
+    </classes>
+  </test> 
+  <test name ="Textbox">
+  <classes>
+  
+  <class name = "testingbaba_test.Textbox_test"/>
+  </classes>
+   </test>
+  <test name ="Checkbox"enabled="false">
+  <classes>
+  
+  <class name="testingbaba_test.Checkbox_test"/>
+  
+   </classes>
+   </test>
+   <test name ="Links_Test"enabled="true">
+  <classes>
+  
+  <class name="testingbaba_test.Links_Test"/>
+  </classes>
+   </test>
+   <test name ="Webtables"enabled="false">
+  <classes>
+   <class name="testingbaba_test.Webtables_Test"/>
+    </classes>
+   </test>
+    <test name ="Upload_download"enabled="false">
+  <classes>
+   <class name="testingbaba_test.Upload_download_Test"/>
+  </classes>
+   </test>
+  <!-- Test -->
+</suite> <!-- Suite -->

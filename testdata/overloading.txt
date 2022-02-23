@@ -1,0 +1,29 @@
+public class Overloading
+{
+
+public void gettrain(String trainname)
+{
+System.out.println("shalimar");
+
+}
+
+public void gettrain(Int trainnumber)
+{
+System.out.println("raj mail")
+
+}
+public void gettrain(String from,stringtodestin) 
+{
+
+System.out.println("jamutavi")
+}
+public static void main(String[] args)
+{
+Overloading ob = new Overloading();
+ob.gettrain(xpress)
+
+
+}
+
+
+}

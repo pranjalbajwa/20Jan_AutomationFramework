@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Testingbaba]">
+  <test name="Login(failed)">
+    <classes>
+      <class name="testingbaba_test.Checkbox_test">
+        <methods>
+          <include name="getlaunchurl"/>
+        </methods>
+      </class> <!-- testingbaba_test.Checkbox_test -->
+      <class name="testingbaba_test.Textbox_test">
+        <methods>
+          <include name="getlaunchurl"/>
+        </methods>
+      </class> <!-- testingbaba_test.Textbox_test -->
+      <class name="testingbaba_test.Login_test">
+        <methods>
+          <include name="getlaunchUrl"/>
+          <include name="gettitle"/>
+        </methods>
+      </class> <!-- testingbaba_test.Login_test -->
+    </classes>
+  </test> <!-- Login(failed) -->
+  <test name="Textbox(failed)">
+    <classes>
+      <class name="testingbaba_test.Checkbox_test">
+        <methods>
+          <include name="getlaunchurl"/>
+        </methods>
+      </class> <!-- testingbaba_test.Checkbox_test -->
+      <class name="testingbaba_test.Textbox_test">
+        <methods>
+          <include name="Filldetails"/>
+          <include name="textbox"/>
+          <include name="datavalidation"/>
+          <include name="getlaunchurl"/>
+        </methods>
+      </class> <!-- testingbaba_test.Textbox_test -->
+      <class name="testingbaba_test.Login_test">
+        <methods>
+          <include name="getlaunchUrl"/>
+        </methods>
+      </class> <!-- testingbaba_test.Login_test -->
+    </classes>
+  </test> <!-- Textbox(failed) -->
+</suite> <!-- Failed suite [Testingbaba] -->
